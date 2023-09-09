@@ -1,6 +1,6 @@
 /* GLOBAL CSS */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
@@ -15,7 +15,7 @@
 
 /* HEADER */
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,11 +27,11 @@ header nav ul {
     display: flex;
 }
 
-header nav ul li{
+header nav ul li {
     list-style-type: none;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: black;
     text-decoration: none;
     padding-left: 15px;
@@ -39,7 +39,132 @@ header nav ul li a{
     padding-top: 33px;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
+}
+
+/* MAIN */
+
+/* SECTION 1 :  */
+.premiere-section {
+    width: 95%;
+    margin: auto;
+}
+
+.premiere-section h1 {
+    margin-bottom: 10px;
+}
+
+/* Form */
+.premiere-section form {
+    display: flex;
+    margin-top: 10px;
+    height: 45px;
+}
+
+.premiere-section form i,
+.premiere-section form button {
+    height: 100%;
+}
+
+.premiere-section form i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.premiere-section form input {
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    padding-left: 10px;
+}
+
+.premiere-section form input::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+.premiere-section form button {
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Filtre */
+.conteneur-filtres {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.conteneur-filtres p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.filtres {
+    display: flex;
+}
+
+.filtre {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.filtre:hover div {
+    border: 2px solid #0065FC;
+}
+
+.filtre div {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+}
+
+.filtre i.fa-solid {
+    width: 44px;
+    height: 44px;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -3px;
+    color: #0065FC;
+}
+
+.filtre span {
+    margin: 0px 15px;
+    font-weight: bold;
+}
+
+.info-logements{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.fa-info{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    color: #0065FC;
+    margin-right: 10px;
 }
