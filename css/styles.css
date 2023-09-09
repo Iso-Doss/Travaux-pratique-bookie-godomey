@@ -1,0 +1,45 @@
+/* GLOBAL CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* BODY */
+
+/* body{
+
+} */
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 33px;
+}
+
+header nav ul li a:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
